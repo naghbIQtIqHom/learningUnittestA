@@ -38,7 +38,7 @@ jobs:
       # Run test
       - name: Test
         run: |
-          python -m pytest
+          pytest
         continue-on-error: true
 
       # Runs a set of commands using the runners shell
